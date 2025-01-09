@@ -1,3 +1,5 @@
+disclaimer: completely AI generated (cursor AI)
+
 # Crazy Pong
 
 A multiplayer Pong game with crazy features like:
