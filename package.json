@@ -4,18 +4,24 @@
     "description": "Multiplayer Pong game with crazy features",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "engines": {
-      "node": "16.x"
+        "node": "16.x"
     },
     "dependencies": {
-      "express": "^4.17.1",
-      "ws": "^8.2.3"
+        "express": "^4.21.2",
+        "ws": "^8.18.0"
     },
     "repository": {
-      "url": "https://glitch.com/edit/#!/crazy-pong"
+        "url": "https://glitch.com/edit/#!/crazy-pong"
     },
     "license": "MIT",
-    "keywords": ["node", "glitch", "express", "websocket", "game"]
-  }
+    "keywords": [
+        "node",
+        "glitch",
+        "express",
+        "websocket",
+        "game"
+    ]
+}
