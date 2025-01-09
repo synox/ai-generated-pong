@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crazy Pong</title>
+    <style>
+        canvas {
+            border: 2px solid white;
+            background: black;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 0 20px rgba(255,255,255,0.5);
+        }
+        body {
+            background: gray;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 10px 0;
+            background: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: none;
+        }
+        #status {
+            margin: 20px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        #controls {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #ffeb3b;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Crazy Pong</h1>
+    <canvas id="pongCanvas" width="800" height="400"></canvas>
+    <div id="status">
+        <p class="waiting-message">Waiting for another player to join...</p>
+        <p id="controls" style="display: none;"></p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
