@@ -1,3 +1,7 @@
 node_modules/
 .env
 .DS_Store 
+.idea/.gitignore
+.idea/modules.xml
+.idea/pong.iml
+.idea/vcs.xml
